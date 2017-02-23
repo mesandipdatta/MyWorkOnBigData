@@ -1,0 +1,9 @@
+
+How to Run
+
+
+[root@sandbox bin]# /usr/hdp/current/flume-server/bin/flume-ng agent -c /etc/flume/conf -f /etc/flume/conf/flume.conf -n TwitterAgent
+
+
+Run Logs
+Runs logs in dir - /var/log/flume

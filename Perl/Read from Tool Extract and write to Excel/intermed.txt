@@ -1,0 +1,823 @@
+IDMS SUMMARY: EX-ORDER,EX-STORE,EX-CONTAINER,EX-ORDER-CNTR,BC-MEMBER [0] 
+==============================================
+LINK: EX00P01.CBL [2]    (IDMS)
+==============================================
+MODULE: EX01D20-RESPONSE-ENTER.ADS [1]     (Update) (IDMS)
+IDMS SUMMARY: EX-STORE,EX-CONTAINER,EX-ORDER-CNTR,EX-ORDER,BC-MEMBER [1] 
+IDMS SUMMARY: EX-STORE,EX-CONTAINER,EX-STORE-CNTR,EX-CUT-FILL-ITEM,BC-ITEM [0] 
+==============================================
+MODULE: EX01D21-PREMAP.ADS [1]     (Update) (IDMS)
+IDMS SUMMARY: EX-STORE,EX-CUT-FILL-ITEM,BC-ITEM [1] 
+==============================================
+MODULE: EX01D21-RESPONSE-ENTER.ADS [1]     (Update) (IDMS)
+IDMS SUMMARY: EX-STORE-CNTR,EX-CONTAINER,BC-ITEM,EX-CUT-FILL-ITEM [1] 
+==============================================
+MODULE: EX01D21-RESPONSE-PF1.ADS [1]     (Update) (IDMS)
+==============================================
+MODULE: EX01D21-RESPONSE-PF2.ADS [1]     (Update) (IDMS)
+==============================================
+MODULE: EX01D21-RESPONSE-PF3.ADS [1]     (Update) (IDMS)
+IDMS SUMMARY: EX-STORE-CNTR [1] 
+IDMS SUMMARY: EX-ORDER,EX-ORDER-CNTR,EX-CONTAINER,EX-ORDER-ITEM,BC-ITEM [0] 
+==============================================
+MODULE: EX01D22-PREMAP.ADS [1]    (IDMS)
+IDMS SUMMARY: EX-ORDER,EX-ORDER-CNTR,EX-ORDER-ITEM,CURRENC [1] 
+==============================================
+MODULE: EX01D22-RESPONSE-ENTER.ADS [1]     (Update) (IDMS)
+IDMS SUMMARY: EX-CONTAINER,BC-ITEM,EX-ORDER-ITEM,EX-ORDER-CNTR,CURRENC [1] 
+==============================================
+MODULE: EX01D22-RESPONSE-PF1.ADS [1]    (IDMS)
+==============================================
+MODULE: EX01D22-RESPONSE-PF2.ADS [1]    (IDMS)
+==============================================
+MODULE: EX01D22-RESPONSE-PF10.ADS [1]     (Update) (IDMS)
+IDMS SUMMARY: EX-CONTAINER,EX-ORDER,EX-ORDER-CNTR [1] 
+IDMS SUMMARY: EX-ORDER,EX-CONTAINER,EX-ORDER-CNTR,EX-ORDER-ITEM,BC-ITEM [0] 
+==============================================
+MODULE: EX01D23-PREMAP.ADS [1]     (Update) (IDMS)
+IDMS SUMMARY: EX-ORDER,EX-CONTAINER,EX-ORDER-CNTR,EX-ORDER-ITEM,BC-ITEM [1] 
+==============================================
+MODULE: EX01D23-RESPONSE-ENTER.ADS [1]     (Update) (IDMS)
+IDMS SUMMARY: EX-ORDER,EX-CONTAINER,EX-ORDER-ITEM,EX-ORDER-CNTR,BC-ITEM [1] 
+IDMS SUMMARY: EX-STORE,EX-ORDER,EX-ORDER-CNTR [0] 
+==============================================
+MODULE: EX01D24-PREMAP.ADS [1]     (Update) (IDMS)
+IDMS SUMMARY: EX-STORE,EX-ORDER [1] 
+==============================================
+MODULE: EX01D24-RESPONSE-ENTER.ADS [1]     (Update) (IDMS)
+IDMS SUMMARY: EX-ORDER,EX-ORDER-CNTR [1] 
+IDMS SUMMARY: BC-MEMBER,EX-STORE [0] 
+==============================================
+MODULE: EX01D25-PREMAP.ADS [1]     (Update) (IDMS)
+IDMS SUMMARY: BC-MEMBER,EX-STORE [1] 
+==============================================
+MODULE: EX01D25-RESPONSE-ENTER.ADS [1]     (Update) (IDMS)
+IDMS SUMMARY: BC-MEMBER,EX-STORE [1] 
+==============================================
+MODULE: SL00D01-PREMAP.ADS [1]    (IDMS)
+==============================================
+LINK: DB00P01.CBL [2]    (IDMS)
+IDMS SUMMARY: DB-USER [2] 
+==============================================
+LINK: SE20P91.CBL [2]    (IDMS)
+==============================================
+MODULE: SL00D00-RESPONSE-CLEAR.ADS [1]    (IDMS)
+==============================================
+MODULE: SL00D00-RESPONSE-PF11.ADS [1]    (IDMS)
+==============================================
+MODULE: SL00D00-RESPONSE-PF12.ADS [1]    (IDMS)
+==============================================
+MODULE: SL00D00-RESPONSE-PF10.ADS [1]    (IDMS)
+==============================================
+MODULE: SL00D00-RESPONSE-PA1.ADS [1]    (IDMS)
+IDMS SUMMARY: SL-VALIDATE,SL-GROUP,SL-SCHEDULE,SL-VLDT-JNCTN,SL-AUDIT [0] 
+==============================================
+MODULE: SL01D05-PREMAP.ADS [1]    (IDMS)
+IDMS SUMMARY: SL-VALIDATE [1] 
+==============================================
+MODULE: SL01D05-RESPONSE-ENTER.ADS [1]    (IDMS)
+IDMS SUMMARY: SL-VALIDATE [1] 
+==============================================
+MODULE: SL01D05-RESPONSE-PF7.ADS [1]    (IDMS)
+IDMS SUMMARY: SL-VALIDATE [1] 
+==============================================
+MODULE: SL01D05-RESPONSE-PF8.ADS [1]    (IDMS)
+IDMS SUMMARY: SL-VALIDATE [1] 
+==============================================
+MODULE: SL01D05-RESPONSE-PF6.ADS [1]     (Update) (IDMS)
+IDMS SUMMARY: SL-GROUP,SL-VALIDATE [1] 
+==============================================
+MODULE: SL01C05-EDIT-DATA.ADS [1]    (IDMS)
+==============================================
+MODULE: SL01D05-RESPONSE-PF2.ADS [1]     (Update) (IDMS)
+IDMS SUMMARY: SL-GROUP,SL-VALIDATE,SL-SCHEDULE,SL-VLDT-JNCTN,SL-AUDIT [1] 
+==============================================
+MODULE: SL01D05-RESPONSE-PA1.ADS [1]    (IDMS)
+==============================================
+MODULE: SL01D05-RESPONSE-PF11.ADS [1]    (IDMS)
+==============================================
+MODULE: SL01D05-RESPONSE-PF12.ADS [1]    (IDMS)
+==============================================
+MODULE: SL01D05-RESPONSE-CLEAR.ADS [1]    (IDMS)
+==============================================
+MODULE: SL01D05-RESPONSE-PF4.ADS [1]    (IDMS)
+IDMS SUMMARY: SL-GROUP [1] 
+IDMS SUMMARY: SL-GROUP,SL-VALIDATE [0] 
+==============================================
+MODULE: SL01C06-PREMAP.ADS [1]    (IDMS)
+IDMS SUMMARY: SL-GROUP [1] 
+==============================================
+MODULE: SL01D06-RESPONSE-ENTER.ADS [1]    (IDMS)
+IDMS SUMMARY: SL-GROUP,SL-VALIDATE [1] 
+==============================================
+MODULE: SL01C06-RESPONSE-PF7.ADS [1]    (IDMS)
+IDMS SUMMARY: SL-GROUP [1] 
+==============================================
+MODULE: SL01C06-RESPONSE-PF8.ADS [1]    (IDMS)
+IDMS SUMMARY: SL-GROUP [1] 
+==============================================
+MODULE: SL01D06-RESPONSE-PF6.ADS [1]     (Update) (IDMS)
+IDMS SUMMARY: SL-GROUP [1] 
+IDMS SUMMARY: SL-SCHEDULE [0] 
+==============================================
+MODULE: SL01D10-PREMAP.ADS [1]    (IDMS)
+IDMS SUMMARY: SL-SCHEDULE [1] 
+IDMS SUMMARY: II-BUSINESS,II-BUSINESS-ITEM,II-ITEM,II-RPT-CODE,II-RPT-CODE-DESC [2] 
+IDMS SUMMARY: II-RPT-JNCTN,II-COMPANY,II-WAREHOUSE,II-WHSE-ITEM,II-SALES [2] 
+IDMS SUMMARY: II-WHSE-SUBST,II-BUS-WHSE [2] 
+==============================================
+MODULE: SL90D35-PREMAP.ADS [3]    (IDMS)
+IDMS SUMMARY: II-BUSINESS,II-BUSINESS-ITEM,II-ITEM,II-RPT-CODE,II-RPT-CODE-DESC [3] 
+IDMS SUMMARY: II-RPT-JNCTN,II-COMPANY,II-WAREHOUSE,II-SALES,II-WHSE-ITEM [3] 
+IDMS SUMMARY: II-BUS-WHSE [3] 
+==============================================
+MODULE: II00C06-BILLING-INVENTORY.ADS [3]    (IDMS)
+IDMS SUMMARY: II-ITEM,II-BUSINESS,II-BUSINESS-ITEM [3] 
+==============================================
+LINK: II00P01.CBL [4]    (IDMS)
+IDMS SUMMARY: BM-ITEM,BC-ITEM [4] 
+==============================================
+MODULE: SL01D10-RESPONSE-ENTER.ADS [1]    (IDMS)
+IDMS SUMMARY: SL-SCHEDULE [1] 
+IDMS SUMMARY: SL-VALIDATE,SL-ZONE,SL-AUDIT [0] 
+==============================================
+MODULE: SL01C15-COMMON-MOVE.ADS [1]    (IDMS)
+==============================================
+MODULE: SL01C15-PREMAP.ADS [1]    (IDMS)
+IDMS SUMMARY: SL-VALIDATE,SL-ZONE [1] 
+==============================================
+MODULE: SL01D15-RESPONSE-ENTER.ADS [1]    (IDMS)
+IDMS SUMMARY: SL-ZONE [1] 
+==============================================
+MODULE: SL01D15-RESPONSE-PF6.ADS [1]     (Update) (IDMS)
+IDMS SUMMARY: SL-ZONE,SL-AUDIT [1] 
+==============================================
+MODULE: SL01C15-RESPONSE-PF7.ADS [1]    (IDMS)
+==============================================
+MODULE: SL01C15-RESPONSE-PF8.ADS [1]    (IDMS)
+==============================================
+MODULE: SL01C15-RESPONSE-PF5.ADS [1]    (IDMS)
+IDMS SUMMARY: SL-VALIDATE,SL-ZONE [1] 
+IDMS SUMMARY: SL-VALIDATE,SL-ZONE-OVERRIDE,SL-ZONE,SL-AUDIT [0] 
+==============================================
+MODULE: SL01C25-PREMAP.ADS [1]    (IDMS)
+IDMS SUMMARY: SL-VALIDATE,SL-ZONE-OVERRIDE,SL-ZONE [1] 
+==============================================
+MODULE: SL01C25-RESPONSE-PF7.ADS [1]    (IDMS)
+IDMS SUMMARY: SL-ZONE-OVERRIDE [1] 
+==============================================
+MODULE: SL01C25-RESPONSE-PF8.ADS [1]    (IDMS)
+IDMS SUMMARY: SL-ZONE-OVERRIDE [1] 
+==============================================
+MODULE: SL01D25-RESPONSE-ENTER.ADS [1]    (IDMS)
+IDMS SUMMARY: SL-ZONE-OVERRIDE,SL-ZONE [1] 
+==============================================
+MODULE: SL01D25-RESPONSE-PF6.ADS [1]     (Update) (IDMS)
+IDMS SUMMARY: SL-ZONE-OVERRIDE,SL-AUDIT [1] 
+IDMS SUMMARY: II-RPT-CODE,SL-VALIDATE,SL-CALC-OVERRIDE,SL-CALC-OVD-ZONE,SL-ZONE [0] 
+==============================================
+MODULE: SL01C90-PREMAP.ADS [1]    (IDMS)
+IDMS SUMMARY: II-RPT-CODE,SL-VALIDATE,SL-CALC-OVERRIDE,SL-CALC-OVD-ZONE [1] 
+==============================================
+MODULE: SL01D90-RESPONSE-ENTER.ADS [1]     (Update) (IDMS)
+IDMS SUMMARY: SL-CALC-OVERRIDE [1] 
+==============================================
+MODULE: SL01C90-EDIT-MODULE.ADS [1]    (IDMS)
+IDMS SUMMARY: II-RPT-CODE,SL-ZONE,SL-CALC-OVERRIDE [1] 
+==============================================
+MODULE: SL01D90-RESPONSE-PF1.ADS [1]    (IDMS)
+==============================================
+MODULE: SL01D90-RESPONSE-PF2.ADS [1]     (Update) (IDMS)
+IDMS SUMMARY: SL-CALC-OVERRIDE,SL-CALC-OVD-ZONE [1] 
+==============================================
+MODULE: SL01D90-RESPONSE-PF6.ADS [1]     (Update) (IDMS)
+IDMS SUMMARY: SL-CALC-OVERRIDE,SL-CALC-OVD-ZONE [1] 
+==============================================
+MODULE: SL01C90-RESPONSE-PF5.ADS [1]    (IDMS)
+IDMS SUMMARY: SL-CALC-OVERRIDE,SL-CALC-OVD-ZONE [1] 
+IDMS SUMMARY: SL-VALIDATE,SL-SCHEDULE,SL-VLDT-JNCTN,SL-AUDIT,II-WAREHOUSE [0] 
+IDMS SUMMARY: SL-SCHEDULE-COST,SL-RESTRICTION [0] 
+==============================================
+MODULE: SL02D09-RESPONSE-PF9.ADS [1]    (IDMS)
+==============================================
+MODULE: SL02D09-RESPONSE-PF2.ADS [1]     (Update) (IDMS)
+IDMS SUMMARY: SL-VALIDATE,SL-SCHEDULE,SL-AUDIT,SL-VLDT-JNCTN,II-WAREHOUSE [1] 
+IDMS SUMMARY: SL-SCHEDULE-COST [1] 
+==============================================
+LINK: SE20P50.CBL [2]     (Update) (IDMS)
+IDMS SUMMARY: ON,FOUND,IF,SL-CALC [2] 
+IDMS SUMMARY: ON,FOUND,IF,SL-CALC [3] 
+==============================================
+MODULE: SL02D09-RESPONSE-PF5.ADS [1]    (IDMS)
+IDMS SUMMARY: SL-VALIDATE [1] 
+==============================================
+MODULE: SL02D09-RESPONSE-ENTER.ADS [1]    (IDMS)
+IDMS SUMMARY: SL-SCHEDULE,SL-VLDT-JNCTN,SL-RESTRICTION,SL-SCHEDULE-COST [1] 
+==============================================
+MODULE: SL02D09-RESPONSE-PF6.ADS [1]     (Update) (IDMS)
+IDMS SUMMARY: SL-SCHEDULE [1] 
+IDMS SUMMARY: SL-SCHEDULE,SL-VLDT-JNCTN,SL-VALIDATE,SL-AUDIT,SL-RESTRICTION [0] 
+IDMS SUMMARY: SL-COMPONENT [0] 
+==============================================
+MODULE: SL02D10-PREMAP.ADS [1]    (IDMS)
+IDMS SUMMARY: SL-SCHEDULE,SL-VLDT-JNCTN [1] 
+IDMS SUMMARY: SL-SCHEDULE,SL-VLDT-JNCTN [2] 
+==============================================
+MODULE: SL90D20-PREMAP.ADS [3]    (IDMS)
+IDMS SUMMARY: SL-SCHEDULE,SL-VLDT-JNCTN [3] 
+==============================================
+MODULE: SL02C10-BUILD-SCREEN.ADS [1]    (IDMS)
+==============================================
+MODULE: SL02D10-RESPONSE-PF5.ADS [1]    (IDMS)
+IDMS SUMMARY: SL-VALIDATE,SL-SCHEDULE,SL-VLDT-JNCTN [1] 
+==============================================
+MODULE: SL02D10-RESPONSE-PF6.ADS [1]     (Update) (IDMS)
+IDMS SUMMARY: SL-SCHEDULE,SL-VALIDATE,SL-VLDT-JNCTN,SL-AUDIT [1] 
+==============================================
+MODULE: SL02D10-RESPONSE-PF11.ADS [1]    (IDMS)
+==============================================
+MODULE: SL02D10-RESPONSE-PF12.ADS [1]    (IDMS)
+==============================================
+MODULE: SL02D10-RESPONSE-PA1.ADS [1]    (IDMS)
+==============================================
+MODULE: SL02D10-RESPONSE-PF7.ADS [1]    (IDMS)
+==============================================
+MODULE: SL02D10-RESPONSE-PF8.ADS [1]    (IDMS)
+==============================================
+MODULE: SL02D10-RESPONSE-PF9.ADS [1]    (IDMS)
+==============================================
+MODULE: SL02D10-RESPONSE-CLEAR.ADS [1]    (IDMS)
+==============================================
+MODULE: SL02D10-RESPONSE-ENTER.ADS [1]    (IDMS)
+IDMS SUMMARY: SL-SCHEDULE,SL-VLDT-JNCTN,SL-VALIDATE,SL-RESTRICTION,SL-COMPONENT [1] 
+IDMS SUMMARY: SL-VALIDATE,SL-GLOBAL,SL-AUDIT [0] 
+==============================================
+MODULE: SL02D20-PREMAP.ADS [1]     (Update) (IDMS)
+IDMS SUMMARY: SL-VALIDATE,SL-GLOBAL,SL-AUDIT [1] 
+==============================================
+MODULE: SL02D20-RESPONSE-PF1.ADS [1]    (IDMS)
+IDMS SUMMARY: SL-GLOBAL [1] 
+==============================================
+MODULE: SL02D20-RESPONSE-PF6.ADS [1]    (IDMS)
+IDMS SUMMARY: SL-GLOBAL [1] 
+==============================================
+MODULE: SL02D20-RESPONSE-PF9.ADS [1]    (IDMS)
+==============================================
+MODULE: SL02D20-RESPONSE-PF7.ADS [1]    (IDMS)
+IDMS SUMMARY: SL-GLOBAL [1] 
+==============================================
+MODULE: SL02D20-RESPONSE-PF8.ADS [1]    (IDMS)
+IDMS SUMMARY: SL-GLOBAL [1] 
+==============================================
+MODULE: SL02D20-RESPONSE-PF5.ADS [1]    (IDMS)
+IDMS SUMMARY: SL-VALIDATE [1] 
+==============================================
+MODULE: SL02D20-RESPONSE-PF4.ADS [1]    (IDMS)
+IDMS SUMMARY: SL-GLOBAL [1] 
+IDMS SUMMARY: SL-SCHEDULE,SL-RESTRICTION,SL-AUDIT,SL-VALIDATE,SL-VLDT-JNCTN [0] 
+IDMS SUMMARY: SL-COMPONENT [0] 
+==============================================
+MODULE: SL02C25-BUILD-SCREEN.ADS [1]    (IDMS)
+==============================================
+MODULE: SL02C25-INIT-SCREEN.ADS [1]    (IDMS)
+==============================================
+MODULE: SL02C25-PREMAP.ADS [1]    (IDMS)
+IDMS SUMMARY: SL-SCHEDULE,SL-RESTRICTION [1] 
+==============================================
+MODULE: SL02C25-RESPONSE-PF7.ADS [1]    (IDMS)
+IDMS SUMMARY: SL-RESTRICTION [1] 
+==============================================
+MODULE: SL02C25-RESPONSE-PF8.ADS [1]    (IDMS)
+IDMS SUMMARY: SL-RESTRICTION [1] 
+==============================================
+MODULE: SL02D25-RESPONSE-PF4.ADS [1]    (IDMS)
+IDMS SUMMARY: SL-SCHEDULE [1] 
+==============================================
+MODULE: SL02C25-RESPONSE-PF6.ADS [1]     (Update) (IDMS)
+IDMS SUMMARY: SL-RESTRICTION,SL-AUDIT [1] 
+==============================================
+MODULE: SL02C25-EDIT-INQ.ADS [1]    (IDMS)
+IDMS SUMMARY: SL-SCHEDULE [1] 
+==============================================
+MODULE: SL02C25-EDIT-UPDT.ADS [1]    (IDMS)
+IDMS SUMMARY: SL-SCHEDULE,SL-RESTRICTION,SL-VLDT-JNCTN,SL-COMPONENT [1] 
+IDMS SUMMARY: SL-GLOBAL,SL-AUDIT [0] 
+==============================================
+MODULE: SL02D40-PREMAP.ADS [1]    (IDMS)
+IDMS SUMMARY: SL-GLOBAL [1] 
+==============================================
+MODULE: SL02D40-RESPONSE-PF2.ADS [1]     (Update) (IDMS)
+IDMS SUMMARY: SL-GLOBAL,SL-AUDIT [1] 
+==============================================
+MODULE: SL02C40-VALIDATE-ITEM.ADS [1]    (IDMS)
+IDMS SUMMARY: SL-GLOBAL [1] 
+==============================================
+MODULE: SL02D40-RESPONSE-PF6.ADS [1]     (Update) (IDMS)
+IDMS SUMMARY: SL-GLOBAL,SL-AUDIT [1] 
+IDMS SUMMARY: SL-SCHEDULE,SL-RESTRICTION,SL-VALIDATE,SL-VLDT-JNCTN,SL-COMPONENT [0] 
+IDMS SUMMARY: SL-AUDIT [0] 
+==============================================
+MODULE: SL03D25-RESPONSE-PF4.ADS [1]    (IDMS)
+IDMS SUMMARY: SL-SCHEDULE [1] 
+==============================================
+MODULE: SL03D25-RESPONSE-PF5.ADS [1]    (IDMS)
+IDMS SUMMARY: SL-VLDT-JNCTN [1] 
+IDMS SUMMARY: SL-SCHEDULE,SL-VLDT-JNCTN [0] 
+==============================================
+MODULE: SL03C30-PREMAP.ADS [1]    (IDMS)
+IDMS SUMMARY: SL-SCHEDULE,SL-VLDT-JNCTN [1] 
+==============================================
+MODULE: SL03C30-RESPONSE-ENTER.ADS [1]    (IDMS)
+IDMS SUMMARY: SL-SCHEDULE,SL-VLDT-JNCTN [1] 
+IDMS SUMMARY: SL-SCHEDULE [0] 
+==============================================
+MODULE: SL03D31-PREMAP.ADS [1]    (IDMS)
+IDMS SUMMARY: SL-SCHEDULE [1] 
+IDMS SUMMARY: SL-VALIDATE,SL-COMPONENT,SL-SCHEDULE,SL-VLDT-JNCTN,SL-RESTRICTION [0] 
+==============================================
+MODULE: SL03C35-PREMAP.ADS [1]    (IDMS)
+IDMS SUMMARY: SL-VALIDATE [1] 
+==============================================
+MODULE: SL90D25-PREMAP.ADS [3]    (IDMS)
+==============================================
+CALL: SE20P39.CBL [5]    (IDMS)
+IDMS SUMMARY: MR-COST-CONTROL [5] 
+==============================================
+CALL: SE20P15.CBL [5]    (IDMS)
+IDMS SUMMARY: II-BUSINESS-ITEM,THE,II-SALES,SL-SCHEDULE,SL-SCHEDULE-COST [5] 
+IDMS SUMMARY: II-ORDER-GROUP,VN-ORDER-GROUP,ITEM(GEN),II-ITEM-CLASS,BITEM(TB) [5] 
+IDMS SUMMARY: II-BITEM-CLASS,WITEM(WHS),II-WITEM-CLASS,SUB-CATEGORY,II-RPT-JNCTN [5] 
+IDMS SUMMARY: CATEGORY,II-RPT-CODE,MMA [5] 
+IDMS SUMMARY: II-BUSINESS-ITEM,THE,II-SALES,SL-SCHEDULE,SL-SCHEDULE-COST [6] 
+IDMS SUMMARY: II-ORDER-GROUP,VN-ORDER-GROUP,ITEM(GEN),II-ITEM-CLASS,BITEM(TB) [6] 
+IDMS SUMMARY: II-BITEM-CLASS,WITEM(WHS),II-WITEM-CLASS,SUB-CATEGORY,II-RPT-JNCTN [6] 
+IDMS SUMMARY: CATEGORY,II-RPT-CODE,MMA [6] 
+==============================================
+CALL: SE20P05.CBL [5]    (IDMS)
+IDMS SUMMARY: SL-RESTRICTION,SL-SCHEDULE,SL-VLDT-JNCTN,THE,SL-COMPONENT [5] 
+IDMS SUMMARY: SL-GLOBAL,SL-VALIDATE [5] 
+IDMS SUMMARY: SL-RESTRICTION,SL-SCHEDULE,SL-VLDT-JNCTN,THE,SL-COMPONENT [6] 
+IDMS SUMMARY: SL-GLOBAL,SL-VALIDATE [6] 
+==============================================
+MODULE: SL03D35-RESPONSE-ENTER.ADS [1]    (IDMS)
+IDMS SUMMARY: SL-VALIDATE,SL-COMPONENT,SL-SCHEDULE,SL-VLDT-JNCTN,SL-RESTRICTION [1] 
+IDMS SUMMARY: SL-SCHEDULE,SL-VLDT-JNCTN,SL-COMPONENT,SL-AUDIT [2] 
+==============================================
+MODULE: SL03D36-PREMAP.ADS [3]     (Update) (IDMS)
+IDMS SUMMARY: SL-SCHEDULE,SL-VLDT-JNCTN,SL-COMPONENT,SL-AUDIT [3] 
+==============================================
+MODULE: SL03C35-RESPONSE-PF7.ADS [1]    (IDMS)
+IDMS SUMMARY: SL-VALIDATE [1] 
+==============================================
+MODULE: SL03D35-RESPONSE-PF5.ADS [1]    (IDMS)
+IDMS SUMMARY: SL-VALIDATE,SL-VLDT-JNCTN [1] 
+IDMS SUMMARY: SL-COMPONENT,SL-VALIDATE,SL-SCHEDULE,SL-VLDT-JNCTN,SL-RESTRICTION [0] 
+==============================================
+MODULE: SL03D37-PREMAP.ADS [1]    (IDMS)
+IDMS SUMMARY: SL-COMPONENT [1] 
+==============================================
+MODULE: SL03C37-DISPCOMP.ADS [1]    (IDMS)
+IDMS SUMMARY: SL-VALIDATE [1] 
+==============================================
+MODULE: SL03D37-RESPONSE-ENTER.ADS [1]    (IDMS)
+IDMS SUMMARY: SL-VALIDATE,SL-COMPONENT,SL-SCHEDULE,SL-VLDT-JNCTN,SL-RESTRICTION [1] 
+IDMS SUMMARY: SL-SCHEDULE,SL-AUDIT,SL-VLDT-JNCTN,SL-COMPONENT [2] 
+==============================================
+MODULE: SL03D38-PREMAP.ADS [3]     (Update) (IDMS)
+IDMS SUMMARY: SL-SCHEDULE,SL-VLDT-JNCTN,SL-COMPONENT,SL-AUDIT [3] 
+==============================================
+MODULE: SL03D37-RESPONSE-PF8.ADS [1]    (IDMS)
+IDMS SUMMARY: SL-COMPONENT [1] 
+==============================================
+MODULE: SL03D37-RESPONSE-PF7.ADS [1]    (IDMS)
+IDMS SUMMARY: SL-COMPONENT [1] 
+IDMS SUMMARY: SL-COMPONENT,SL-AUDIT,SL-SCHEDULE [0] 
+==============================================
+MODULE: SL03D40-PREMAP.ADS [1]    (IDMS)
+IDMS SUMMARY: SL-COMPONENT [1] 
+==============================================
+MODULE: SL03D40-RESPONSE-ENTER.ADS [1]    (IDMS)
+IDMS SUMMARY: SL-COMPONENT [1] 
+==============================================
+MODULE: SL03D40-RESPONSE-PF6.ADS [1]     (Update) (IDMS)
+IDMS SUMMARY: SL-SCHEDULE,SL-COMPONENT,SL-AUDIT [1] 
+IDMS SUMMARY: SL-SCHEDULE,SL-COMPONENT,SL-AUDIT,SL-VLDT-JNCTN,SL-RESTRICTION [0] 
+==============================================
+MODULE: SL03D45-PREMAP.ADS [1]    (IDMS)
+IDMS SUMMARY: SL-SCHEDULE,SL-COMPONENT [1] 
+==============================================
+MODULE: SL03D45-RESPONSE-PF6.ADS [1]     (Update) (IDMS)
+IDMS SUMMARY: SL-SCHEDULE,SL-COMPONENT,SL-AUDIT [1] 
+==============================================
+MODULE: SL03D45-RESPONSE-ENTER.ADS [1]    (IDMS)
+IDMS SUMMARY: SL-SCHEDULE,SL-VLDT-JNCTN,SL-COMPONENT,SL-RESTRICTION [1] 
+IDMS SUMMARY: SL-SCHEDULE,SL-VALIDATE,SL-COMPONENT,SL-VLDT-JNCTN,SL-AUDIT [0] 
+==============================================
+MODULE: SL03D70-PREMAP.ADS [1]    (IDMS)
+IDMS SUMMARY: SL-SCHEDULE,SL-VALIDATE [1] 
+==============================================
+MODULE: SL03D70-RESPONSE-ENTER.ADS [1]    (IDMS)
+IDMS SUMMARY: SL-SCHEDULE,SL-COMPONENT [1] 
+==============================================
+MODULE: SL03D70-RESPONSE-PF6.ADS [1]     (Update) (IDMS)
+IDMS SUMMARY: SL-SCHEDULE,SL-VLDT-JNCTN,SL-COMPONENT,SL-AUDIT [1] 
+IDMS SUMMARY: II-INCOMPLETE,II-BUSINESS-ITEM,II-WHSE-ITEM,II-SALES,II-BUSINESS [0] 
+IDMS SUMMARY: II-AUDIT [0] 
+==============================================
+MODULE: SL03D80-PREMAP.ADS [1]    (IDMS)
+IDMS SUMMARY: II-INCOMPLETE [1] 
+==============================================
+MODULE: SL03C80-COMMON-MOVE.ADS [1]    (IDMS)
+==============================================
+MODULE: SL03D80-RESPONSE-ENTER.ADS [1]    (IDMS)
+IDMS SUMMARY: II-BUSINESS-ITEM,II-SALES [1] 
+==============================================
+MODULE: SL03D80-RESPONSE-PF6.ADS [1]     (Update) (IDMS)
+IDMS SUMMARY: II-BUSINESS-ITEM,II-INCOMPLETE,II-AUDIT [1] 
+==============================================
+MODULE: SL03D80-RESPONSE-PF8.ADS [1]    (IDMS)
+IDMS SUMMARY: II-INCOMPLETE [1] 
+==============================================
+MODULE: SL03D80-RESPONSE-PF7.ADS [1]    (IDMS)
+IDMS SUMMARY: II-INCOMPLETE [1] 
+IDMS SUMMARY: SL-SCHEDULE,SL-VALIDATE,SL-GROUP [0] 
+==============================================
+MODULE: SL04D05-PREMAP.ADS [1]    (IDMS)
+IDMS SUMMARY: SL-SCHEDULE,SL-VALIDATE [1] 
+==============================================
+MODULE: SL04C05-BUILD-SCREEN.ADS [1]    (IDMS)
+IDMS SUMMARY: SL-VALIDATE [1] 
+==============================================
+MODULE: SL04D05-RESPONSE-ENTER.ADS [1]    (IDMS)
+==============================================
+MODULE: SL04D05-RESPONSE-PF7.ADS [1]    (IDMS)
+==============================================
+MODULE: SL04D05-RESPONSE-PF6.ADS [1]    (IDMS)
+==============================================
+MODULE: SL04D05-RESPONSE-PF8.ADS [1]    (IDMS)
+==============================================
+MODULE: SL04D05-RESPONSE-CLEAR.ADS [1]    (IDMS)
+==============================================
+MODULE: SL04D05-RESPONSE-PF11.ADS [1]    (IDMS)
+==============================================
+MODULE: SL04D05-RESPONSE-PF12.ADS [1]    (IDMS)
+==============================================
+MODULE: SL04D05-RESPONSE-PA1.ADS [1]    (IDMS)
+==============================================
+MODULE: SL04D05-RESPONSE-PF9.ADS [1]    (IDMS)
+IDMS SUMMARY: SL-GROUP [0] 
+IDMS SUMMARY: SL-VALIDATE,SL-SCHEDULE,SL-VLDT-JNCTN [0] 
+==============================================
+MODULE: SL04D10-PREMAP.ADS [1]    (IDMS)
+IDMS SUMMARY: SL-VALIDATE,SL-SCHEDULE,SL-VLDT-JNCTN [1] 
+==============================================
+MODULE: SL04C10-BUILD-SCREEN.ADS [1]    (IDMS)
+==============================================
+MODULE: SL04D10-RESPONSE-ENTER.ADS [1]    (IDMS)
+IDMS SUMMARY: SL-SCHEDULE [1] 
+==============================================
+MODULE: SL04D10-RESPONSE-PF7.ADS [1]    (IDMS)
+==============================================
+MODULE: SL04D10-RESPONSE-PF8.ADS [1]    (IDMS)
+==============================================
+MODULE: SL04D10-RESPONSE-PF6.ADS [1]    (IDMS)
+IDMS SUMMARY: SL-VALIDATE,SL-ZONE [0] 
+IDMS SUMMARY: SL-VALIDATE,SL-GLOBAL,SL-AUDIT [0] 
+IDMS SUMMARY: SL-SCHEDULE,SL-RESTRICTION [0] 
+==============================================
+MODULE: SL04D25-PREMAP.ADS [1]    (IDMS)
+==============================================
+MODULE: SL04D25-RESPONSE-PF4.ADS [1]    (IDMS)
+IDMS SUMMARY: SL-SCHEDULE [1] 
+IDMS SUMMARY: SL-VALIDATE,SL-ZONE-OVERRIDE,SL-ZONE [0] 
+IDMS SUMMARY: SL-SCHEDULE,SL-VLDT-JNCTN [0] 
+IDMS SUMMARY: SL-VALIDATE [0] 
+IDMS SUMMARY: SL-SCHEDULE [0] 
+==============================================
+MODULE: SL04D45-PREMAP.ADS [1]    (IDMS)
+IDMS SUMMARY: SL-SCHEDULE [1] 
+==============================================
+MODULE: SL04D45-RESPONSE-ENTER.ADS [1]    (IDMS)
+IDMS SUMMARY: SL-SCHEDULE [1] 
+==============================================
+MODULE: SL04D45-RESPONSE-PA1.ADS [1]    (IDMS)
+==============================================
+MODULE: SL04D45-RESPONSE-PF11.ADS [1]    (IDMS)
+==============================================
+MODULE: SL04D45-RESPONSE-PF12.ADS [1]    (IDMS)
+==============================================
+MODULE: SL04D45-RESPONSE-PF7.ADS [1]    (IDMS)
+==============================================
+MODULE: SL04D45-RESPONSE-CLEAR.ADS [1]    (IDMS)
+==============================================
+MODULE: SL04D45-RESPONSE-PF2.ADS [1]    (IDMS)
+==============================================
+MODULE: SL04D45-RESPONSE-PF1.ADS [1]    (IDMS)
+IDMS SUMMARY: II-ORDER-GROUP,SL-SCHEDULE,II-BUSINESS-ITEM,II-ITEM,II-SALES [0] 
+IDMS SUMMARY: II-WHSE-ITEM,II-RPT-ITM-JNCTN,II-RPT-CODE,II-RPT-JNCTN,SL-VALIDATE [0] 
+IDMS SUMMARY: SL-ZONE [0] 
+==============================================
+MODULE: SL04C50-DISPCOMP.ADS [1]    (IDMS)
+IDMS SUMMARY: SL-VALIDATE [1] 
+==============================================
+MODULE: SL04C50-EDITSCHD.ADS [1]    (IDMS)
+IDMS SUMMARY: SL-SCHEDULE [1] 
+==============================================
+MODULE: SL04C50-PREMAP.ADS [1]     (Update) (IDMS)
+IDMS SUMMARY: SL-SCHEDULE,II-BUSINESS-ITEM,II-SALES,II-RPT-ITM-JNCTN,II-RPT-JNCTN [1] 
+IDMS SUMMARY: SL-VALIDATE,SL-ZONE [1] 
+==============================================
+LINK: PM21P10.CBL [2]    (IDMS)
+IDMS SUMMARY: PM-PROMOTION,SL-VALIDATE [2] 
+==============================================
+LINK: SE20P20.CBL [2]    (IDMS)
+IDMS SUMMARY: BM-ITEM,BC-ITEM,SL-ZONE,SL-ZONE-OVERRIDE,SL-SELL [2] 
+IDMS SUMMARY: SL-DETAIL,SL-VALIDATE,II-BUSINESS-ITEM [2] 
+==============================================
+CALL: SE20H15.CBL [5]    (IDMS) (SQL)
+SQL SUMMARY: ITX_ITEM_CROSS_REF,ITS_ITEM_SCHEDULE [5] 
+IDMS SUMMARY: II-BUSINESS-ITEM,THE,II-SALES,SL-SCHEDULE,SL-SCHEDULE-COST [5] 
+IDMS SUMMARY: II-ORDER-GROUP,VN-ORDER-GROUP,ITEM(GEN),II-ITEM-CLASS,BITEM(TB) [5] 
+IDMS SUMMARY: II-BITEM-CLASS,WITEM(WHS),II-WITEM-CLASS,SUB-CATEGORY,II-RPT-JNCTN [5] 
+IDMS SUMMARY: CATEGORY,II-RPT-CODE,MMA [5] 
+==============================================
+CALL: SE20H40.CBL [5]    (SQL)
+SQL SUMMARY: CAC_CALC_COST_COMP,ITX_ITEM_CROSS_REF,BUS_BUSINESS_XREF,COL_COMPONENT_LIST [5] 
+==============================================
+CALL: SE20H05.CBL [5]    (IDMS)
+IDMS SUMMARY: SL-RESTRICTION,SL-SCHEDULE,SL-VLDT-JNCTN,THE,SL-COMPONENT [5] 
+IDMS SUMMARY: SL-GLOBAL,SL-VALIDATE [5] 
+IDMS SUMMARY: BM-ITEM,BC-ITEM,SL-ZONE,SL-ZONE-OVERRIDE,SL-SELL [3] 
+IDMS SUMMARY: SL-DETAIL,SL-VALIDATE,II-BUSINESS-ITEM [3] 
+==============================================
+CALL: SE20P70.CBL [3]     (Update) (IDMS)
+IDMS SUMMARY: CU-STORE,CU-BUSINESS,CU-WAREHOUSE,CU-STORE-ORG [3] 
+==============================================
+CALL: SE20P71.CBL [4]    (IDMS)
+IDMS SUMMARY: CU-CITY-TAXES [4] 
+IDMS SUMMARY: CU-STORE,CU-BUSINESS,CU-WAREHOUSE,CU-SELL-COMPO,CU-STORE-ORG [2] 
+IDMS SUMMARY: CU-SELL-SCHEDULE,CU-ACCNTNG-HDQTR [2] 
+==============================================
+MODULE: SL04D50-RESPONSE-PF1.ADS [1]    (IDMS)
+IDMS SUMMARY: SL-SCHEDULE [1] 
+==============================================
+MODULE: SL04D50-RESPONSE-PF3.ADS [1]    (IDMS)
+IDMS SUMMARY: SL-SCHEDULE [1] 
+==============================================
+MODULE: SL04D50-RESPONSE-PF4.ADS [1]    (IDMS)
+IDMS SUMMARY: SL-SCHEDULE [1] 
+==============================================
+MODULE: SL04D50-RESPONSE-PF5.ADS [1]    (IDMS)
+IDMS SUMMARY: SL-SCHEDULE [1] 
+IDMS SUMMARY: SL-SCHEDULE [0] 
+==============================================
+MODULE: SL04D55-PREMAP.ADS [1]    (IDMS)
+IDMS SUMMARY: SL-SCHEDULE [1] 
+==============================================
+MODULE: SL04D55-RESPONSE-ENTER.ADS [1]    (IDMS)
+IDMS SUMMARY: SL-SCHEDULE [1] 
+==============================================
+MODULE: SL04D55-RESPONSE-PF2.ADS [1]    (IDMS)
+==============================================
+MODULE: SL04D55-RESPONSE-PF3.ADS [1]    (IDMS)
+==============================================
+MODULE: SL04D55-RESPONSE-PF7.ADS [1]    (IDMS)
+==============================================
+MODULE: SL04D55-RESPONSE-PF8.ADS [1]    (IDMS)
+==============================================
+MODULE: SL04D55-RESPONSE-PA1.ADS [1]    (IDMS)
+==============================================
+MODULE: SL04D55-RESPONSE-PF11.ADS [1]    (IDMS)
+==============================================
+MODULE: SL04D55-RESPONSE-PF12.ADS [1]    (IDMS)
+IDMS SUMMARY: SL-SCHEDULE [0] 
+==============================================
+MODULE: SL04D60-PREMAP.ADS [1]    (IDMS)
+IDMS SUMMARY: SL-SCHEDULE [1] 
+IDMS SUMMARY: SL-SCHEDULE,SL-VLDT-JNCTN [2] 
+==============================================
+MODULE: SL90D15-PREMAP.ADS [3]    (IDMS)
+IDMS SUMMARY: SL-SCHEDULE,SL-VLDT-JNCTN [3] 
+==============================================
+MODULE: SL04D60-RESPONSE-ENTER.ADS [1]    (IDMS)
+==============================================
+MODULE: SL04D60-RESPONSE-PF6.ADS [1]    (IDMS)
+==============================================
+MODULE: SL04D60-RESPONSE-PF7.ADS [1]    (IDMS)
+IDMS SUMMARY: SL-SCHEDULE [1] 
+==============================================
+MODULE: SL04D60-RESPONSE-PF8.ADS [1]    (IDMS)
+IDMS SUMMARY: SL-SCHEDULE [1] 
+IDMS SUMMARY: SL-VALIDATE,SL-VLDT-JNCTN,SL-SCHEDULE [0] 
+==============================================
+MODULE: SL04D65-PREMAP.ADS [1]    (IDMS)
+IDMS SUMMARY: SL-VALIDATE,SL-VLDT-JNCTN [1] 
+==============================================
+MODULE: SL04D65-COMMON-MOVE.ADS [1]    (IDMS)
+==============================================
+MODULE: SL04D65-RESPONSE-PF8.ADS [1]    (IDMS)
+IDMS SUMMARY: SL-VLDT-JNCTN [1] 
+==============================================
+MODULE: SL04D65-RESPONSE-PF7.ADS [1]    (IDMS)
+IDMS SUMMARY: SL-VLDT-JNCTN [1] 
+==============================================
+MODULE: SL04D65-RESPONSE-PF5.ADS [1]    (IDMS)
+IDMS SUMMARY: SL-VALIDATE [1] 
+IDMS SUMMARY: SL-SCHEDULE,SL-SELL,SL-DETAIL [0] 
+==============================================
+MODULE: SL04C70-PREMAP.ADS [1]    (IDMS)
+IDMS SUMMARY: SL-SCHEDULE,SL-SELL,SL-DETAIL [1] 
+==============================================
+MODULE: SL04C70-RESPONSE-PF7.ADS [1]    (IDMS)
+IDMS SUMMARY: SL-DETAIL [1] 
+==============================================
+MODULE: SL04C70-RESPONSE-PF8.ADS [1]    (IDMS)
+IDMS SUMMARY: SL-DETAIL [1] 
+IDMS SUMMARY: SL-SCHEDULE,SL-SELL,SL-DETAIL [0] 
+IDMS SUMMARY: II-ORDER-GROUP,SL-SCHEDULE,II-BUSINESS-ITEM,II-ITEM,II-SALES [0] 
+IDMS SUMMARY: II-WHSE-ITEM,II-RPT-ITM-JNCTN,II-RPT-CODE,II-RPT-JNCTN,SL-VALIDATE [0] 
+IDMS SUMMARY: SL-ZONE [0] 
+==============================================
+MODULE: SL04D75-RESPONSE-PF9.ADS [1]    (IDMS)
+==============================================
+MODULE: SL04D75-RESPONSE-PF3.ADS [1]    (IDMS)
+IDMS SUMMARY: SL-SCHEDULE [1] 
+==============================================
+MODULE: SL04D75-RESPONSE-PF4.ADS [1]    (IDMS)
+IDMS SUMMARY: SL-SCHEDULE [1] 
+==============================================
+MODULE: SL04D75-RESPONSE-PF5.ADS [1]    (IDMS)
+IDMS SUMMARY: SL-SCHEDULE [1] 
+==============================================
+MODULE: SL04D75-RESPONSE-CLEAR.ADS [1]    (IDMS)
+==============================================
+MODULE: SL04D75-RESPONSE-PA1.ADS [1]    (IDMS)
+==============================================
+MODULE: SL04D75-RESPONSE-PF11.ADS [1]    (IDMS)
+IDMS SUMMARY: SL-VALIDATE [0] 
+==============================================
+MODULE: SL04D80-RESPONSE-ENTER.ADS [1]    (IDMS)
+IDMS SUMMARY: SL-VALIDATE [1] 
+IDMS SUMMARY: II-RPT-CODE,SL-VALIDATE,SL-CALC-OVERRIDE,SL-CALC-OVD-ZONE [0] 
+IDMS SUMMARY: SL-VALIDATE,II-RPT-CODE,SL-CALC-OVERRIDE [0] 
+==============================================
+MODULE: SL04D91-PREMAP.ADS [1]    (IDMS)
+IDMS SUMMARY: SL-VALIDATE,II-RPT-CODE,SL-CALC-OVERRIDE [1] 
+==============================================
+MODULE: SL04D91-RESPONSE-ENTER.ADS [1]    (IDMS)
+==============================================
+MODULE: SL04D91-RESPONSE-PF6.ADS [1]    (IDMS)
+IDMS SUMMARY: SL-CALC-OVERRIDE [1] 
+==============================================
+MODULE: SL04D91-RESPONSE-PF7.ADS [1]    (IDMS)
+IDMS SUMMARY: SL-CALC-OVERRIDE [1] 
+==============================================
+MODULE: SL04D91-RESPONSE-PF8.ADS [1]    (IDMS)
+IDMS SUMMARY: SL-CALC-OVERRIDE [1] 
+IDMS SUMMARY: SL-SCHEDULE [0] 
+==============================================
+MODULE: SL05D10-PREMAP.ADS [1]    (IDMS)
+IDMS SUMMARY: SL-SCHEDULE [1] 
+==============================================
+MODULE: SL05D10-RESPONSE-ENTER.ADS [1]    (IDMS)
+IDMS SUMMARY: SL-SCHEDULE [1] 
+IDMS SUMMARY: SL-SCHEDULE [0] 
+==============================================
+MODULE: SL05D15-RESPONSE-ENTER.ADS [1]    (IDMS)
+IDMS SUMMARY: SL-SCHEDULE [1] 
+IDMS SUMMARY: SL-CALC,SL-SCHEDULE [0] 
+==============================================
+MODULE: SL90D05-RESPONSE-ENTER.ADS [1]    (IDMS)
+IDMS SUMMARY: SL-CALC [1] 
+==============================================
+MODULE: SL90D05-RESPONSE-PF2.ADS [1]    (IDMS)
+IDMS SUMMARY: SL-SCHEDULE,SL-CALC [1] 
+==============================================
+MODULE: SL90D05-RESPONSE-PF1.ADS [1]    (IDMS)
+==============================================
+MODULE: SL90D05-RESPONSE-PF6.ADS [1]    (IDMS)
+IDMS SUMMARY: SL-CALC [1] 
+IDMS SUMMARY: SL-SCHEDULE,SL-VALIDATE,SL-COMPONENT,SL-VLDT-JNCTN,SL-AUDIT [0] 
+==============================================
+MODULE: SL90D70-PREMAP.ADS [1]    (IDMS)
+IDMS SUMMARY: SL-SCHEDULE,SL-VALIDATE [1] 
+==============================================
+MODULE: SL90D70-RESPONSE-PF2.ADS [1]     (Update) (IDMS)
+IDMS SUMMARY: SL-SCHEDULE,SL-VLDT-JNCTN,SL-COMPONENT,SL-AUDIT [1] 
+==============================================
+LINK: DCSHVNY.CBL [1]     (Update) (IDMS)
+IDMS SUMMARY: ISSUED,THE,VN-CASH-DISCOUNT,VN-ADDR-JNCTN,ADDRESS [1] 
+IDMS SUMMARY: VN-FREIGHT,II-WAREHOUSE,II-RESERVE-WHSE,DATE,VOG [1] 
+IDMS SUMMARY: A,VN-ORDER-GROUP,VN-AUDIT [1] 
+IDMS SUMMARY: VN-ORDER-GROUP,ISSUED [2] 
+IDMS SUMMARY: VN-ORDER-GROUP,THE,VN-CASH-DISCOUNT [2] 
+IDMS SUMMARY: VN-ADDR-JNCTN,ADDRESS [2] 
+IDMS SUMMARY: VN-FREIGHT [2] 
+IDMS SUMMARY: II-WAREHOUSE,II-RESERVE-WHSE,DATE,VOG,A [2] 
+IDMS SUMMARY: VN-ORDER-GROUP,VN-AUDIT [2] 
+==============================================
+LINK: D2271.CBL [2]    (IDMS)
+IDMS SUMMARY: VN-SUPPLIER [2] 
+==============================================
+LINK: DCSHITY.CBL [3]     (Update) (IDMS)
+IDMS SUMMARY: II-BUSINESS-ITEM,II-ORDER-GROUP,ITEM-SIZE,THE,ITEM-DESC [3] 
+IDMS SUMMARY: II-SALES,VN-ORDER-GROUP,II-RPT-JNCTN,BM-ITEM,BC-ITEM [3] 
+IDMS SUMMARY: II-BITEM-CLASS,II-WHSE-ITEM,II-AUDIT [3] 
+IDMS SUMMARY: ITEM-SIZE,THE,ITEM-DESC,II-BUSINESS-ITEM,II-ORDER-GROUP [4] 
+IDMS SUMMARY: II-SALES,VN-ORDER-GROUP,II-RPT-JNCTN,II-WHSE-ITEM,BM-ITEM [4] 
+IDMS SUMMARY: BC-ITEM,II-BITEM-CLASS [4] 
+==============================================
+LINK: D2122.CBL [9]    (SQL)
+SQL SUMMARY: MAB_MARWOOD_BOOKING_LIST [9] 
+==============================================
+LINK: DC703.CBL [9]    (IDMS)
+IDMS SUMMARY: II-BUSINESS-ITEM,II-ITEM,VN-ORDER-GROUP,II-BUYER [9] 
+==============================================
+LINK: DC143.CBL [8]     (Update) (IDMS)
+IDMS SUMMARY: II-WHSE-ITEM,II-SALES,II-BUSINESS-ITEM,II-INCOMPLETE,II-AUDIT [8] 
+IDMS SUMMARY: THE [8] 
+IDMS SUMMARY: THE [9] 
+==============================================
+PROG: RP001.CBL [0]    (IDMS)
+IDMS SUMMARY: II-BUSINESS-ITEM [0] 
+==============================================
+LINK: RP002.CBL [1]     (Update) (IDMS)
+IDMS SUMMARY: CU-STORE,CU-BUSINESS [1] 
+==============================================
+LINK: XO002.CBL [1]     (Update) (IDMS)
+IDMS SUMMARY: CU-STORE,CU-BUSINESS,CU-WAREHOUSE [1] 
+==============================================
+LINK: XO003.CBL [2]    (IDMS)
+IDMS SUMMARY: II-BUSINESS-ITEM,II-ORDER-GROUP,VN-ORDER-GROUP [2] 
+==============================================
+LINK: XO052.CBL [4]    (IDMS)
+IDMS SUMMARY: II-BUSINESS-ITEM [4] 
+==============================================
+LINK: XO055.CBL [2]    (IDMS)
+IDMS SUMMARY: VN-ORDER-GROUP,VN-SUPPLIER,VN-SUPPLIER-ADDR,II-ORDER-GROUP [2] 
+==============================================
+PROG: XO007.CBL [0]     (Update) (IDMS)
+IDMS SUMMARY: CU-STORE [0] 
+==============================================
+PROG: XO010.CBL [0]    (IDMS)
+IDMS SUMMARY: II-BUSINESS-ITEM,II-ITEM,II-ORDER-GROUP,II-SALES [0] 
+==============================================
+PROG: XO015.CBL [0]    (IDMS)
+IDMS SUMMARY: II-ITEM,II-BUSINESS-ITEM [0] 
+==============================================
+CALL: C2141Q.CBL [4]     (Update) (IDMS)
+==============================================
+LINK: DC701.CBL [5]    (IDMS)
+IDMS SUMMARY: II-BUSINESS-ITEM [5] 
+==============================================
+XCTL: C2161.CBL [5]     (Update) (IDMS)
+IDMS SUMMARY: II-BUSINESS,II-COMPANY,II-BUSINESS-CODE,II-RPT-CODE,II-RPT-CODE-DESC [5] 
+IDMS SUMMARY: II-ITEM,II-RPT-JNCTN,II-ITEM-ORG,VN-ORDER-GROUP,II-BUYER [5] 
+IDMS SUMMARY: II-BUSINESS-ITEM,II-WAREHOUSE,II-WHSE-ITEM,II-ORDER-GROUP,II-INCOMPLETE [5] 
+IDMS SUMMARY: II-SALES,II-WHSE-SUBST,II-CLASS,II-BITEM-CLASS,II-BUS-ITEM-DESC [5] 
+IDMS SUMMARY: II-AUDIT,NEXT,II-CODE,II-BUS-WHSE [5] 
+==============================================
+XCTL: C2163.CBL [5]     (Update) (IDMS)
+IDMS SUMMARY: II-ITEM,II-AUDIT,II-WHSE-ITEM,II-BUSINESS,II-BUSINESS-ITEM [5] 
+==============================================
+XCTL: C2164.CBL [5]     (Update) (IDMS)
+IDMS SUMMARY: II-ITEM,II-BUSINESS,II-SALES,II-ITEM-JNCTN,II-WHSE-SUBST [5] 
+IDMS SUMMARY: II-WHSE-ITEM,II-BUSINESS-ITEM,II-AUDIT [5] 
+==============================================
+CALL: C2999Q.CBL [6]     (Update) (IDMS)
+==============================================
+PROG: C2145Q.CBL [0]     (Update) (IDMS)
+==============================================
+PROG: C2161Q.CBL [0]     (Update) (IDMS)
+==============================================
+PROG: C2170.CBL [0]    (SQL)
+SQL SUMMARY: FAI_FACILITY_ITEM [0] 
+==============================================
+LINK: C2175.CBL [1]    (IDMS)
+IDMS SUMMARY: BC-ITEM [1] 
+==============================================
+LINK: C2169.CBL [1]    (IDMS) (SQL)
+SQL SUMMARY: COT_CODE_TRANSLATE [1] 
+IDMS SUMMARY: II-BUSINESS-ITEM,II-ITEM,II-RPT-CODE-DESC,II-WHSE-ITEM,VN-ORDER-GROUP [1] 
+IDMS SUMMARY: II-BUYER,II-SALES,II-WHSE-SUBST [1] 
+==============================================
+PROG: C2172.CBL [0]    (SQL)
+SQL SUMMARY: ITC_ITEM_CONVERT [0] 
+==============================================
+LINK: OA0110AO.CBL [1]     (Update) (IDMS) (SQL)
+SQL SUMMARY: ITC_ITEM_CONVERT,CUS_CUST_SOURCE,CUW_CUST_WHSE,CUL_CUST_LIST,UPDATE [1] 
+IDMS SUMMARY: CU-STORE,CU-BUSINESS,CU-STORE-ORG,CU-WAREHOUSE [1] 
+==============================================
+LINK: OA0111AO.CBL [1]    (IDMS) (SQL)
+SQL SUMMARY: CUL_CUST_LIST,ITC_ITEM_CONVERT,CUS_CUST_SOURCE,CUW_CUST_WHSE,ITL_ITEM_LIST,RCA_REG_SELL_CALC,COT_CODE_TRANSLATE [1] 
+IDMS SUMMARY: II-BUSINESS-ITEM,II-SALES,II-ORDER-GROUP,II-WHSE-SUBST,II-WHSE-ITEM [1] 
+IDMS SUMMARY: II-BITEM-CLASS,II-WITEM-CLASS,II-RPT-JNCTN,II-ITEM,II-BUSINESS [1] 
+==============================================
+PROG: C2188.CBL [0]    (SQL)
+SQL SUMMARY: AOI_ADVANCED_ITEM,AOR_ADVANCED_ORDER [0] 
+==============================================
+PROG: C2273.CBL [0]     (Update) (SQL)
+SQL SUMMARY: VNC_VENDOR_CARRIER,UPDATE [0] 
+==============================================
+PROG: DNDCXX01.CBL [0]     (Update) (IDMS)
+IDMS SUMMARY: END-EXEC [0] 

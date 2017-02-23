@@ -1,0 +1,7 @@
+This scripts are used to scrap twitter archive data based on keywords
+
+1> Go to twitter archive search
+2> key in words and search
+3> Resultant page is the input for this script. 
+   For some reason , the urllink input is not giving correct results in terms of tag identification.
+   So we saved the page as HTML as fed that as an input to my Python script.

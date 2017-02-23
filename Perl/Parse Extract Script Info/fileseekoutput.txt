@@ -1,0 +1,488 @@
+File Name	Extension	Path	Line #	File Size	Date Created	Date Accessed	Date Modified	Line	
+BH06.docx	.docx	C:\Users\dattas6\Desktop\Sandip\Sandip\EMC - Work - NonSprint\UG - Test Script Data Extraction	--	19,916	Feb 24, 2016 12:19	Feb 24, 2016 12:19	Feb 24, 2016 12:19	Batch Test Script
+Bundle
+2
+ 
+System Prefix
+BH
+Script Number
+BH06
+Script Name
+Edit -2 Inpt all SRCE Mlnk
+Snapshot
+B2S1 and BH06
+Created By
+Michael A Aguilar
+ 
+JCL Tested
+PWBH0300
+Run Date and Time 
+12/03/2015 08:18
+Elapsed Time
+3 –  5 minutes
+Parms
+None
+ 
+ 
+Control Cards
+None
+ 
+ 
+SYSINs
+None
+ 
+Date (date dependent job)
+ 
+ 
+Data Used:
+ 
+CRUD
+DB2 or IDMS
+SQL Server
+Files (VSAM or SEQ)
+Special Run Instructions / Comments
+None.
+Validation Process
+All files in the output directory are assumed to be compared for validation unless explicitly stated.  Any other necessary validation must be provided, reports and or Spufi results and how EMC can recreated the data in SQL Server.
+Files used as input for both online and batch steps need to be provided for each script.
+Files created\modified for both online and batch steps need to be provided.
+Intermediate files are necessary to expedite debugging.
+NOTE: See Bundle 2 spreadsheets for the complete list of DB2 and IDMS input data used.
+***   Special Note on use of job-audit utility programs (SE0001B or XM00H01B)    ***
+These are common programs that are used in most jobs with system identifiers: BH, CC, CU, SE, and XM. 
+ Their purpose is to insert a row in the CS. COD_COLUMN_DECODE DB2 table, once at the beginning of the batch job, and once at the end.  These are used for job/system audits.  Once this has been validated to work correctly once, it does not need to be validated in each and every job.
+Successful execution can be validated by verifying at end-of-job, that two rows were inserted with valid run-time timestamps:
+SELECT SUBSTR(DATABASE_ALIAS,1,2)   AS SYS
+ , SUBSTR(';',1,1)
+ , TABLE_NAME_PREFIX            AS FREQ
+ , SUBSTR(';',1,1)
+ , SUBSTR(COLUMN_NAME,1,19)     AS JOB_TIME
+ , SUBSTR(';',1,1)
+ , SUBSTR(ENCODED_CODE,1,8)     AS JOB_NAME
+ , SUBSTR(';',1,1)
+ , DECODED_ABRV_DESC            AS STA
+ , SUBSTR(';',1,1)
+ , DECODED_FULL_DESC            AS JOB_DESCRIPTION
+ , SUBSTR(';',1,1)
+ FROM CS.COD_COLUMN_DECODE
+ WHERE ENCODED_CODE           = 'job-name'   replace with actual prod job-name
+ ;
+Sample results of above query, where job-name = ‘PDCC2590’.  Timestamps will match your test run times.
+---------+---------+---------+---------+---------+---------+---------+---------+
+SYS     FREQ     JOB_TIME                JOB_NAME     STA     JOB_DESCRIPTION
+---------+---------+---------+---------+---------+---------+---------+---------+
+SE   ;  EOD   ;  2015-11-18-03.20.20  ;  PDCC2590  ;  BEG  ;  EXTR DB2 TABLES TO
+SE   ;  EOD   ;  2015-11-18-03.30.39  ;  PDCC2590  ;  END  ;  EXTR DB2 TABLES TO
+Other Scripts that can run without resetting Baseline
+(Include this script name in order)
+Script Name
+Script Name
+Script Name	
+BH16.docx	.docx	C:\Users\dattas6\Desktop\Sandip\Sandip\EMC - Work - NonSprint\UG - Test Script Data Extraction	--	19,705	Feb 24, 2016 12:20	Feb 24, 2016 12:20	Feb 24, 2016 12:20	Batch Test Script
+Bundle
+2
+ 
+System Prefix
+BH
+Script Number
+BH16
+Script Name
+Sales Based PROMO Rpt by PRM#
+Snapshot
+B2S1 and BH16
+Created By
+Michael A Aguilar
+ 
+JCL Tested
+PWBH9075
+Run Date and Time 
+12/09/2015 08:00
+Elapsed Time
+3 –  5 minutes
+Parms
+None
+ 
+ 
+Control Cards
+None
+ 
+ 
+SYSINs
+None
+ 
+Date (date dependent job)
+ 
+ 
+Data Used:
+ 
+CRUD
+DB2 or IDMS
+SQL Server
+Files (VSAM or SEQ)
+Special Run Instructions / Comments
+None.
+Validation Process
+All files in the output directory are assumed to be compared for validation unless explicitly stated.  Any other necessary validation must be provided, reports and or Spufi results and how EMC can recreated the data in SQL Server.
+Files used as input for both online and batch steps need to be provided for each script.
+Files created\modified for both online and batch steps need to be provided.
+Intermediate files are necessary to expedite debugging.
+NOTE: See Bundle 2 spreadsheets for the complete list of DB2 and IDMS input data used.
+***   Special Note on use of job-audit utility programs (SE0001B or XM00H01B)    ***
+These are common programs that are used in most jobs with system identifiers: BH, CC, CU, SE, and XM. 
+ Their purpose is to insert a row in the CS. COD_COLUMN_DECODE DB2 table, once at the beginning of the batch job, and once at the end.  These are used for job/system audits.  Once this has been validated to work correctly once, it does not need to be validated in each and every job.
+Successful execution can be validated by verifying at end-of-job, that two rows were inserted with valid run-time timestamps:
+SELECT SUBSTR(DATABASE_ALIAS,1,2)   AS SYS
+ , SUBSTR(';',1,1)
+ , TABLE_NAME_PREFIX            AS FREQ
+ , SUBSTR(';',1,1)
+ , SUBSTR(COLUMN_NAME,1,19)     AS JOB_TIME
+ , SUBSTR(';',1,1)
+ , SUBSTR(ENCODED_CODE,1,8)     AS JOB_NAME
+ , SUBSTR(';',1,1)
+ , DECODED_ABRV_DESC            AS STA
+ , SUBSTR(';',1,1)
+ , DECODED_FULL_DESC            AS JOB_DESCRIPTION
+ , SUBSTR(';',1,1)
+ FROM CS.COD_COLUMN_DECODE
+ WHERE ENCODED_CODE           = 'job-name'   replace with actual prod job-name
+ ;
+Sample results of above query, where job-name = ‘PDCC2590’.  Timestamps will match your test run times.
+---------+---------+---------+---------+---------+---------+---------+---------+
+SYS     FREQ     JOB_TIME                JOB_NAME     STA     JOB_DESCRIPTION
+---------+---------+---------+---------+---------+---------+---------+---------+
+SE   ;  EOD   ;  2015-11-18-03.20.20  ;  PDCC2590  ;  BEG  ;  EXTR DB2 TABLES TO
+SE   ;  EOD   ;  2015-11-18-03.30.39  ;  PDCC2590  ;  END  ;  EXTR DB2 TABLES TO
+Other Scripts that can run without resetting Baseline
+(Include this script name in order)
+Script Name
+Script Name
+Script Name	
+BH23.docx	.docx	C:\Users\dattas6\Desktop\Sandip\Sandip\EMC - Work - NonSprint\UG - Test Script Data Extraction	--	19,654	Feb 24, 2016 12:21	Feb 24, 2016 12:21	Feb 24, 2016 12:21	Batch Test Script
+Bundle
+2
+ 
+System Prefix
+BH
+Script Number
+BH23
+Script Name
+Create week after Fiscal Year end 
+Snapshot
+B2S1 and BH23
+Created By
+Michael A Aguilar
+ 
+JCL Tested
+PYBH0010
+Run Date and Time 
+12/15/2015 08:04
+Elapsed Time
+3 –  5 minutes
+Parms
+None
+ 
+ 
+Control Cards
+None
+ 
+ 
+SYSINs
+None
+ 
+Date (date dependent job)
+ 
+ 
+Data Used:
+ 
+CRUD
+DB2 or IDMS
+SQL Server
+Files (VSAM or SEQ)
+Special Run Instructions / Comments
+None.
+Validation Process
+All files in the output directory are assumed to be compared for validation unless explicitly stated.  Any other necessary validation must be provided, reports and or Spufi results and how EMC can recreated the data in SQL Server.
+Files used as input for both online and batch steps need to be provided for each script.
+Files created\modified for both online and batch steps need to be provided.
+Intermediate files are necessary to expedite debugging.
+NOTE: See Bundle 2 spreadsheets for the complete list of DB2 and IDMS input data used.
+***   Special Note on use of job-audit utility programs (SE0001B or XM00H01B)    ***
+These are common programs that are used in most jobs with system identifiers: BH, CC, CU, SE, and XM. 
+ Their purpose is to insert a row in the CS. COD_COLUMN_DECODE DB2 table, once at the beginning of the batch job, and once at the end.  These are used for job/system audits.  Once this has been validated to work correctly once, it does not need to be validated in each and every job.
+Successful execution can be validated by verifying at end-of-job, that two rows were inserted with valid run-time timestamps:
+SELECT SUBSTR(DATABASE_ALIAS,1,2)   AS SYS
+ , SUBSTR(';',1,1)
+ , TABLE_NAME_PREFIX            AS FREQ
+ , SUBSTR(';',1,1)
+ , SUBSTR(COLUMN_NAME,1,19)     AS JOB_TIME
+ , SUBSTR(';',1,1)
+ , SUBSTR(ENCODED_CODE,1,8)     AS JOB_NAME
+ , SUBSTR(';',1,1)
+ , DECODED_ABRV_DESC            AS STA
+ , SUBSTR(';',1,1)
+ , DECODED_FULL_DESC            AS JOB_DESCRIPTION
+ , SUBSTR(';',1,1)
+ FROM CS.COD_COLUMN_DECODE
+ WHERE ENCODED_CODE           = 'job-name'   replace with actual prod job-name
+ ;
+Sample results of above query, where job-name = ‘PDCC2590’.  Timestamps will match your test run times.
+---------+---------+---------+---------+---------+---------+---------+---------+
+SYS     FREQ     JOB_TIME                JOB_NAME     STA     JOB_DESCRIPTION
+---------+---------+---------+---------+---------+---------+---------+---------+
+SE   ;  EOD   ;  2015-11-18-03.20.20  ;  PDCC2590  ;  BEG  ;  EXTR DB2 TABLES TO
+SE   ;  EOD   ;  2015-11-18-03.30.39  ;  PDCC2590  ;  END  ;  EXTR DB2 TABLES TO
+Other Scripts that can run without resetting Baseline
+(Include this script name in order)
+Script Name
+Script Name
+Script Name	
+CC19.docx	.docx	C:\Users\dattas6\Desktop\Sandip\Sandip\EMC - Work - NonSprint\UG - Test Script Data Extraction	--	19,722	Feb 24, 2016 12:21	Feb 24, 2016 12:21	Feb 24, 2016 12:21	Batch Test Script
+Bundle
+2
+ 
+System Prefix
+CC
+Script Number
+CC19
+Script Name
+Create Cost component update files
+Snapshot
+B2S1 and CC19
+Created By
+Ted Carnahan
+ 
+JCL Tested
+PDCC2500
+Run Date and Time 
+12/18/2015 12:44
+Elapsed Time
+1 – 2 minute 
+Parms
+None
+ 
+ 
+Control Cards
+None
+ 
+ 
+SYSINs
+None
+ 
+Date (date dependent job)
+ 
+ 
+Data Used:
+ 
+CRUD
+DB2 or IDMS
+SQL Server
+Files (VSAM or SEQ)
+Special Run Instructions / Comments
+None.
+Validation Process
+All files in the output directory are assumed to be compared for validation unless explicitly stated.  Any other necessary validation must be provided, reports and or Spufi results and how EMC can recreated the data in SQL Server.
+Files used as input for both online and batch steps need to be provided for each script.
+Files created\modified for both online and batch steps need to be provided.
+Intermediate files are necessary to expedite debugging.
+NOTE: See Bundle 2 spreadsheets for the complete list of DB2 and IDMS input data used.
+***   Special Note on use of job-audit utility programs (SE0001B or XM00H01B)    ***
+These are common programs that are used in most jobs with system identifiers: BH, CC, CU, SE, and XM. 
+ Their purpose is to insert a row in the CS. COD_COLUMN_DECODE DB2 table, once at the beginning of the batch job, and once at the end.  These are used for job/system audits.  Once this has been validated to work correctly once, it does not need to be validated in each and every job.
+Successful execution can be validated by verifying at end-of-job, that two rows were inserted with valid run-time timestamps:
+SELECT SUBSTR(DATABASE_ALIAS,1,2)   AS SYS
+ , SUBSTR(';',1,1)
+ , TABLE_NAME_PREFIX            AS FREQ
+ , SUBSTR(';',1,1)
+ , SUBSTR(COLUMN_NAME,1,19)     AS JOB_TIME
+ , SUBSTR(';',1,1)
+ , SUBSTR(ENCODED_CODE,1,8)     AS JOB_NAME
+ , SUBSTR(';',1,1)
+ , DECODED_ABRV_DESC            AS STA
+ , SUBSTR(';',1,1)
+ , DECODED_FULL_DESC            AS JOB_DESCRIPTION
+ , SUBSTR(';',1,1)
+ FROM CS.COD_COLUMN_DECODE
+ WHERE ENCODED_CODE           = 'job-name'   replace with actual prod job-name
+ ;
+Sample results of above query, where job-name = ‘PDCC2590’.  Timestamps will match your test run times.
+---------+---------+---------+---------+---------+---------+---------+---------+
+SYS     FREQ     JOB_TIME                JOB_NAME     STA     JOB_DESCRIPTION
+---------+---------+---------+---------+---------+---------+---------+---------+
+SE   ;  EOD   ;  2015-11-18-03.20.20  ;  PDCC2590  ;  BEG  ;  EXTR DB2 TABLES TO
+SE   ;  EOD   ;  2015-11-18-03.30.39  ;  PDCC2590  ;  END  ;  EXTR DB2 TABLES TO
+Other Scripts that can run without resetting Baseline
+(Include this script name in order)
+Script Name
+Script Name
+Script Name	
+CC37.docx	.docx	C:\Users\dattas6\Desktop\Sandip\Sandip\EMC - Work - NonSprint\UG - Test Script Data Extraction	--	19,756	Feb 24, 2016 12:22	Feb 24, 2016 12:22	Feb 24, 2016 12:22	Batch Test Script
+Bundle
+2
+ 
+System Prefix
+CC
+Script Number
+CC37
+Script Name
+CRV prepaid Balance on Hand report
+Snapshot
+B2S1 and CC37
+Created By
+Ted Carnahan
+ 
+JCL Tested
+PMCC1545
+Run Date and Time 
+12/16/2015 14:25
+Elapsed Time
+1  minutes
+Parms
+None
+ 
+ 
+Control Cards
+None
+ 
+ 
+SYSINs
+None
+ 
+Date (date dependent job)
+ 
+ 
+Data Used:
+ 
+CRUD
+DB2 or IDMS
+SQL Server
+Files (VSAM or SEQ)
+Special Run Instructions / Comments
+None.
+Validation Process
+All files in the output directory are assumed to be compared for validation unless explicitly stated.  Any other necessary validation must be provided, reports and or Spufi results and how EMC can recreated the data in SQL Server.
+Files used as input for both online and batch steps need to be provided for each script.
+Files created\modified for both online and batch steps need to be provided.
+Intermediate files are necessary to expedite debugging.
+NOTE: See Bundle 2 spreadsheets for the complete list of DB2 and IDMS input data used.
+***   Special Note on use of job-audit utility programs (SE0001B or XM00H01B)    ***
+These are common programs that are used in most jobs with system identifiers: BH, CC, CU, SE, and XM. 
+ Their purpose is to insert a row in the CS. COD_COLUMN_DECODE DB2 table, once at the beginning of the batch job, and once at the end.  These are used for job/system audits.  Once this has been validated to work correctly once, it does not need to be validated in each and every job.
+Successful execution can be validated by verifying at end-of-job, that two rows were inserted with valid run-time timestamps:
+SELECT SUBSTR(DATABASE_ALIAS,1,2)   AS SYS
+ , SUBSTR(';',1,1)
+ , TABLE_NAME_PREFIX            AS FREQ
+ , SUBSTR(';',1,1)
+ , SUBSTR(COLUMN_NAME,1,19)     AS JOB_TIME
+ , SUBSTR(';',1,1)
+ , SUBSTR(ENCODED_CODE,1,8)     AS JOB_NAME
+ , SUBSTR(';',1,1)
+ , DECODED_ABRV_DESC            AS STA
+ , SUBSTR(';',1,1)
+ , DECODED_FULL_DESC            AS JOB_DESCRIPTION
+ , SUBSTR(';',1,1)
+ FROM CS.COD_COLUMN_DECODE
+ WHERE ENCODED_CODE           = 'job-name'   replace with actual prod job-name
+ ;
+Sample results of above query, where job-name = ‘PDCC2590’.  Timestamps will match your test run times.
+---------+---------+---------+---------+---------+---------+---------+---------+
+SYS     FREQ     JOB_TIME                JOB_NAME     STA     JOB_DESCRIPTION
+---------+---------+---------+---------+---------+---------+---------+---------+
+SE   ;  EOD   ;  2015-11-18-03.20.20  ;  PDCC2590  ;  BEG  ;  EXTR DB2 TABLES TO
+SE   ;  EOD   ;  2015-11-18-03.30.39  ;  PDCC2590  ;  END  ;  EXTR DB2 TABLES TO
+Other Scripts that can run without resetting Baseline
+(Include this script name in order)
+Script Name
+Script Name
+Script Name	
+II01.docx	.docx	C:\Users\dattas6\Desktop\Sandip\Sandip\EMC - Work - NonSprint\UG - Test Script Data Extraction	--	17,375	Feb 24, 2016 14:48	Feb 24, 2016 14:48	Feb 24, 2016 14:48	Batch Test Script
+Bundle
+2
+ 
+System Prefix
+II
+Script Number
+II0I
+Script Name
+Flow Thru Peterson all regions.  Email to Users with attached report
+Snapshot
+B2S1 and II01
+Created By
+COGNIZANT
+JCL Tested
+PWII0521
+Run Date and Time 
+11/23/2015,10:10
+Elapsed Time
+11 – 15 Minutes
+Parms
+NA
+ 
+ 
+Control Cards
+NA
+ 
+ 
+SYSINs
+NA
+ 
+Date (date dependent job)
+NA
+ 
+ 
+Data Used:
+ 
+CRUD
+DB2 or IDMS
+NA
+R
+SQL Server
+Files (VSAM or SEQ)
+NA	
+RP050.docx	.docx	C:\Users\dattas6\Desktop\Sandip\Sandip\EMC - Work - NonSprint\UG - Test Script Data Extraction	--	17,371	Feb 24, 2016 14:49	Feb 24, 2016 14:53	Feb 24, 2016 14:53	Batch Test Script
+Bundle
+2
+ 
+System Prefix
+RP
+Script Number
+RP050
+Script Name
+BACKUP FLASHCOPY OF TPR MASTER
+Snapshot
+B2S1 and RP050
+Created By
+Uthayakumar  S
+ 
+JCL Tested
+P1RP3067
+Run Date and Time 
+11/25/2015 03.05.32
+Elapsed Time
+6.1 minute
+Parms
+NA
+ 
+ 
+Control Cards
+NA
+ 
+ 
+SYSINs
+NA
+ 
+Date (date dependent job)
+NA
+ 
+ 
+Data Used:
+ 
+CRUD
+DB2 or IDMS
+NA
+A
+SQL Server
+NA
+B
+Files (VSAM or SEQ)
+RPP.WEK.RPTPRMST  (Master vsam file)
+U	

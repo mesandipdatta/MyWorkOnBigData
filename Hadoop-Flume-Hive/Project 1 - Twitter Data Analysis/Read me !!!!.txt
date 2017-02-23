@@ -1,0 +1,12 @@
+Objective - 
+
+> Download Twitter Streaming data based on specific keywords or area that needs analytics through Flume.
+
+> Copy the twitter data to HDFS in the above process
+
+
+> Create Hive table 
+
+> Load the twitter data from HDFS file to HIve table
+
+> Do analytics on the twitter table in HIve
